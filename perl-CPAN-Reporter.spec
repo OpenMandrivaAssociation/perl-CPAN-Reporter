@@ -1,9 +1,9 @@
 %define upstream_name    CPAN-Reporter
-%define upstream_version 1.1803
+%define upstream_version 1.1902
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:    %mkrel 1
 
 Summary:    Adds CPAN Testers reporting to CPAN.pm
 License:    Apache License
