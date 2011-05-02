@@ -10,7 +10,7 @@ License:    Apache License
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.gz
-
+BuildRequires: perl(Archive::TAR)
 BuildRequires: perl(CPAN)
 BuildRequires: perl(Config::Tiny)
 BuildRequires: perl(Devel::Autoflush)
