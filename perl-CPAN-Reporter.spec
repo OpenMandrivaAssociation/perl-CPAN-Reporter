@@ -11,8 +11,9 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires: perl(Archive::Tar)
-BuildRequires: perl(CPAN)
+BuildRequires: perl(Capture::Tiny)
 BuildRequires: perl(Config::Tiny)
+BuildRequires: perl(CPAN)
 BuildRequires: perl(Devel::Autoflush)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(File::Basename)
