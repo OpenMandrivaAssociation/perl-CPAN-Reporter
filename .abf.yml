@@ -1,2 +1,4 @@
+removed_sources:
+  CPAN-Reporter-1.1902.tar.gz: 3ffc69d82af5765a0c316657934eea74c7fd3402
 sources:
-  "CPAN-Reporter-1.1902.tar.gz": 3ffc69d82af5765a0c316657934eea74c7fd3402
+  CPAN-Reporter-1.2010.tar.gz: 53f127b24fc366c1350029799dba8b1927d282d3
