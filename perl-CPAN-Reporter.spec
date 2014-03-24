@@ -1,5 +1,5 @@
 %define upstream_name    CPAN-Reporter
-%define upstream_version 1.2010
+%define upstream_version 1.2011
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(Win32::Job\\)'
@@ -13,7 +13,7 @@ Summary:	Adds CPAN Testers reporting to CPAN.pm
 License:	Apache License
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CPAN/CPAN-Reporter-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Archive::Tar)
@@ -69,5 +69,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc META.yml README Changes LICENSE
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
 
