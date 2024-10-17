@@ -12,7 +12,7 @@ Release:	3
 Summary:	Adds CPAN Testers reporting to CPAN.pm
 License:	Apache License
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
