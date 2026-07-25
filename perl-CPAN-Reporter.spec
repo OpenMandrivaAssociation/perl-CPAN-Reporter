@@ -1,19 +1,19 @@
 %define upstream_name    CPAN-Reporter
-%define upstream_version 1.2011
+%define upstream_version 1.2020
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(Win32::Job\\)'
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Adds CPAN Testers reporting to CPAN.pm
 License:	Apache License
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CPAN/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/cpan-testers/CPAN-Reporter
+Source0:	https://cpan.metacpan.org/authors/id/G/GA/GARU/CPAN-Reporter-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
